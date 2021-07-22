@@ -1,0 +1,297 @@
+* {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body{
+  background-color: orangered;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  
+  
+    font: 400 1rem 'DM Sans', sans-serif;
+}
+
+
+
+a {
+  text-decoration: none;
+}
+
+
+
+/* ====== VARIABLES ===========*/
+
+
+/*================ BASE ====================== */
+
+html {
+  scroll-behavior: smooth;
+  
+  
+}
+
+/*================ Logo ====================== */
+
+
+.logo {
+  font: 700 1.31rem 'Poppins', sans-serif;
+  color: rgb(0, 0, 0);
+  margin-left: 2rem;
+  align-items: justify;
+}
+
+
+
+.logo span {
+  color: rgb(0, 0, 0);
+  font-size: larger;
+}
+
+
+
+
+
+.links {
+  display: flex;
+}
+
+.links li {
+  margin-right: 8px;
+}
+
+nav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-right: 2rem;
+  
+  height: 5rem;
+  background-color: orangered;
+}
+
+ul{
+display: flex;
+
+}
+
+ul li {
+  list-style: none;
+}
+
+.menu {
+  max-width: 120rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  height: 45px;
+  padding: 0px 15px;
+  width: 100%;
+  height: 40px;
+  
+ 
+}
+
+.list-left {
+  float: left;
+}
+
+.list-right {
+  float: right;
+  margin-right: 2rem;
+}
+
+/*================ Layout ====================== */
+
+
+
+#header .container {
+  display: flex;
+  align-items: center;
+  
+  justify-content: space-between;
+ 
+  
+  
+  
+}
+
+
+
+#promocao  {
+   width: 100%;
+    height:auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+
+#cadastro  {
+ width: 100%;
+ height:auto;
+     
+ font-size: 4rem;
+    
+  
+ background-color: orangered;
+}
+
+#tituloCadastro{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 5rem;
+  padding-bottom: 1rem;
+  Flex-direction: column;
+}
+
+#tituloCadastro p {
+  font-size: 3rem;
+  padding-bottom: 2rem;
+}
+
+#promocao img {
+  display: block;
+}
+
+  
+.formulario {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+}
+
+#preencher {
+font-size: 1rem;
+margin-left: 1rem;
+margin-right: 1rem;
+}
+
+fieldset {
+  border: 0;
+  padding-bottom: 2rem;
+}
+
+.button{
+  font-size: 1.5rem;
+    background: black;
+    color: #ffff;
+    border: 0;
+    padding: 1em 4em;
+    cursor: pointer;
+    border-radius: 1rem;
+}
+
+#quadroProdutos {
+  padding-top: 3rem;
+  padding-bottom: 8rem;
+}
+
+
+#quadroProdutos blockquote {
+  padding: 2rem;
+  box-shadow: 0px 0px 12px;
+  margin: 2rem;
+  background: orangered;
+  
+}
+
+#quadroProdutos ul {
+  
+  object-fit: cover;
+  Display: flex;
+  Flex-direction: row;
+  Flex-wrap:wrap;
+  justify-content: center;
+  Align-items:center;
+}
+
+#quadroProdutos blockquote img {
+  width: 10rem;
+  height: 10rem;
+  object-fit: cover;
+  Display: flex;
+  
+}
+
+#quadroProdutos img{
+  box-shadow: 0px 0px 12px;
+  margin-bottom: 1rem;
+  
+}
+
+#quadroProdutos .camisas {
+  Display: flex;
+  Flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  border: 2rem;
+  box-shadow: 0px 0px 12px;
+  max-width: 100rem;
+  margin: auto;
+  padding-bottom: 3rem;
+  background-color: rgb(242, 96, 43);
+  border-radius: 5rem;
+}
+#quadroProdutos .calcas {
+  display: flex;
+  flex-direction: column;
+}
+  
+#quadroProdutos h2 {
+  display: flex;
+  margin-left: 2rem;
+  margin-top: 4rem;
+}
+
+
+#quadroProdutos blockquote cite {
+ font-style: oblique;
+ font-style: italic;
+ font-size: 2rem;
+ font: black
+}
+
+#quadroProdutos a {
+  color: relative;
+  color: black;
+}
+
+#rodape .text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  Align-items:center;
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+  background-color: black;
+  color: white;
+ 
+}
+#rodape .link{
+  width: 3rem;
+  color: white;
+}
+
+
+#rodape .icon {
+  color: white;
+  margin: 0 1rem;
+  font-size: 2rem;
+}
+
+#rodape .card {
+  padding-top: 2rem;
+  display: flex;
+  
+}
