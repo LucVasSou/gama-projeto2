@@ -144,15 +144,7 @@ ul li {
   border-radius: 5rem;
 }
 
-#cadastro  {
- width: 100%;
- height:auto;
-     
- font-size: 4rem;
-    
-  
- background-color: orangered;
-}
+
 
 #tituloCadastro{
   display: flex;
@@ -188,93 +180,69 @@ fieldset {
   padding-bottom: 2rem;
 }
 
-.button{
-  font-size: 1.5rem;
-    background: black;
-    color: #ffff;
-    border: 0;
-    padding: 1em 4em;
-    cursor: pointer;
-    border-radius: 1rem;
-}
+
 
 #quadroProdutos {
-  padding-top: 3rem;
-  padding-bottom: 16rem;
+ margin-top: 5rem;
+ margin-bottom: 17rem;
 }
 
 
-#quadroProdutos blockquote {
-  padding: 2rem;
-  box-shadow: 0px 0px 12px;
-  margin: 2rem;
-  background: orangered;
-  
-}
 
-#quadroProdutos ul {
-  
-  object-fit: cover;
+
+#quadroProdutos .item {
   Display: flex;
-  Flex-direction: row;
-  Flex-wrap:wrap;
-  justify-content: center;
-  Align-items:center;
-}
-
-#quadroProdutos blockquote img {
-  width: 10rem;
-  height: 10rem;
-  object-fit: cover;
-  Display: flex;
-  
-}
-
-#quadroProdutos img{
-  box-shadow: 0px 0px 12px;
-  margin-bottom: 1rem;
-  
-}
-
-#quadroProdutos .camisas {
-  Display: flex;
-  Flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
   border: 2rem;
   box-shadow: 0px 0px 12px;
-  max-width: 100rem;
+  max-width: 60rem;
   margin: auto;
   padding-bottom: 3rem;
   background-color: rgb(242, 96, 43);
   border-radius: 5rem;
 }
-#quadroProdutos .calcas {
+
+  #quadroProdutos img {
+    width: auto;
+    height: 30rem;
+    margin-top: 3rem;
+    margin-left: 3rem;
+    box-shadow: 0px 0px 12px;
+  margin-bottom: 1rem;
+  margin-right: 5rem;
+  }
+
+
+
+
+#quadroProdutos .nome {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  font-size: 3rem;
+}
+
+.direita .preco {
+  margin-top: 3rem;
+  font-size: 2rem;
+}
+
+
+#quadroProdutos .cart--item--qtarea {
   display: flex;
-  flex-direction: column;
-}
-  
-#quadroProdutos h2 {
-  display: flex;
-  margin-left: 2rem;
-  margin-top: 4rem;
+  flex-direction: row;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  align-items: center;
+
 }
 
-
-#quadroProdutos blockquote cite {
- font-style: oblique;
- font-style: italic;
- font-size: 2rem;
- font: black
+#quadroProdutos .cart--item-qt {
+  margin: 0 1rem;
 }
 
-#quadroProdutos a {
-  color: relative;
-  color: black;
+.direita button {
+  width: 2rem;
+  height: 2rem;
 }
-
-
 
 #rodape .text {
   display: flex;
@@ -312,3 +280,4 @@ fieldset {
     position: relative;
   }
 }
+

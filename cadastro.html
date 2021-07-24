@@ -45,7 +45,7 @@
                   <a class="logo" href="#">Produtos</a>
                 </li>
                 <li class="list-right">
-                  <a class="logo" href="#">
+                  <a class="logo" href="carrinho.html">
                     <i><span class="icon-cart"></span></i>
                   </a>
                 </li>
@@ -54,69 +54,138 @@
           </div>
         </nav>
       </header>
+      <section class="section" id="promocao">
+        <div class="imagebf">
+          <img
+            src="https://www.publicitarioscriativos.com/wp-content/uploads/2019/11/descubra-como-utilizar-a-black-friday-em-favor-da-sua-empresa-1024x576.png"
+            alt="Simbolo Black Friday"
+          />
+        
+      </section>
       <section>
         <div class="formulario container grid" id="formulario">
           <div class="form">
             <form name="formjs" id="formjs">
-              <ul class="campos">
-                <li>
-                  <label for="preencher"><strong>Nome: </strong></label>
+              <fieldset class="campos">
+                <div class="inputBox">
+                  <label for="name"><strong>Nome completo: </strong></label>
                   <input
-                    class="name"
-                    type="name"
-                    nome="name"
-                    id="preencher"
+                    class="inputUser"
+                    type="text"
+                    name="name"
+                    id="name"
                     required
                   />
-                </li>
-                <li>
-                  <label for="preencher"
+                </div>
+                <div class="inputBox">
+                  <label for="data"
                     ><strong>Data de Nascimento: </strong></label
                   >
                   <input
-                    class="data"
-                    type="data"
-                    nome="data"
-                    id="preencher"
+                    class="inputUser"
+                    type="date"
+                    name="data"
+                    id="data"
                     required
                   />
-                </li>
-                <li>
-                  <label for="preencher"><strong>Email: </strong></label>
+                </div>
+                <div class="inputBox">
+                  <p><strong>Sexo:</strong></p>
                   <input
-                    class="email"
+                    type="radio"
+                    name="genero"
+                    id="feminino"
+                    value="feminino"
+                    required
+                  />
+                  <label for="feminino"><strong>Feminino </strong></label>
+                  <input
+                    type="radio"
+                    name="genero"
+                    id="masculino"
+                    value="masculino"
+                    required
+                  />
+                  <label for="masculino"><strong>Masculino </strong></label>
+                  <input
+                    type="radio"
+                    name="genero"
+                    id="outro"
+                    value="outro"
+                    required
+                  />
+                  <label for="outro"><strong>Outros </strong></label>
+                </div>
+                <div class="inputBox">
+                  <label for="telefone"><strong>Telefone: </strong></label>
+                  <input
+                    class="inputUser"
+                    type="tel"
+                    name="telefone"
+                    id="telefone"
+                    required
+                  />
+                </div>
+                <div class="inputBox">
+                  <label for="email"><strong>Email: </strong></label>
+                  <input
+                    class="inputUser"
                     type="email"
-                    nome="email"
-                    id="preencher"
+                    name="email"
+                    id="email"
                     required
                   />
-                </li>
-                <li>
-                  <label for="preencher"><strong>Endereço: </strong></label>
+                </div>
+                <div class="inputBox">
+                  <label for="cidade"><strong>Cidade: </strong></label>
                   <input
-                    class="endereco"
-                    type="endereco"
-                    nome="endereco"
-                    id="preencher"
+                    class="inputUser"
+                    type="text"
+                    name="cidade"
+                    id="cidade"
                     required
                   />
-                </li>
-                <li>
-                  <label for="preencher"><strong>Senha: </strong></label>
+                </div>
+                <div class="inputBox">
+                  <label for="estado"><strong>Estado: </strong></label>
                   <input
-                    class="password"
+                    class="inputUser"
+                    type="text"
+                    name="estado"
+                    id="estado"
+                    required
+                  />
+                </div>
+
+                <div class="inputBox">
+                  <label for="endereco"><strong>Endereço: </strong></label>
+                  <input
+                    class="inputUser"
+                    type="text"
+                    name="endereco"
+                    id="endereco"
+                    required
+                  />
+                </div>
+                <div class="inputBox">
+                  <label for="senha"><strong>Senha: </strong></label>
+                  <input
+                    class="inputUser"
                     type="password"
-                    nome="password"
-                    id="preencher"
+                    name="senha"
+                    id="senha"
                     required
                   />
-                </li>
-              </ul>
+                </div>
+                <div class="botaoEnviar">
+                  <input type="submit" name="submit" id="submit" />
+                </div>
+              </fieldset>
             </form>
           </div>
         </div>
       </section>
-      <div class="container grid" id="rodape">
+      <footer class="container grid" id="rodape">
         <div class="text">
           <p><strong>Desenvolvido por:</strong></p>
           <p><strong>Lucas Vasconcelos de Souza</strong></p>
@@ -144,7 +213,7 @@
             </div>
           </div>
         </div>
-      </div>
+      </footer>
     </main>
   </body>
 </html>
