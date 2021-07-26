@@ -44,10 +44,11 @@ html {
 .logo {
   font: 700 1.31rem 'Poppins', sans-serif;
   color: orangered;
-  margin-left: 2rem;
+  
   align-items: justify;
+  margin-right: 2rem;
+  
 }
-
 
 
 .logo span {
@@ -55,9 +56,15 @@ html {
   font-size: larger;
 }
 
+.cart-icon {
+  color: white;
+  font-size: larger;
+  font: 700 1.31rem 'Poppins', sans-serif;
+}
 
-
-
+.cart-i {
+  margin-left: 2rem;
+}
 
 .links {
   display: flex;

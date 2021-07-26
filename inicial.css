@@ -44,8 +44,10 @@ html {
 .logo {
   font: 700 1.31rem 'Poppins', sans-serif;
   color: orangered;
-  margin-left: 2rem;
+  
   align-items: justify;
+  margin-right: 2rem;
+  
 }
 
 
@@ -55,7 +57,11 @@ html {
   font-size: larger;
 }
 
-
+.cart-icon {
+  color: white;
+  font-size: larger;
+  font: 700 1.31rem 'Poppins', sans-serif;
+}
 
 
 
@@ -209,7 +215,17 @@ fieldset {
   box-shadow: 0px 0px 12px;
   margin: 2rem;
   background: orangered;
-  
+  display: flex;
+  flex-direction: column;
+}
+
+.carrinhoMais {
+  margin-top: 1rem;
+  font-size: large;
+  height: 2rem;
+  width: auto;
+  color: white;
+  background-color: black;
 }
 
 #quadroProdutos ul {

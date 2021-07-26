@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="Assets/fonts/style.css" />
 
     <!-- STYLES -->
-    <link rel="stylesheet" href="cadastro.css" />
+    <link rel="stylesheet" href="produtos.css" />
 
     <!-- FONTS -->
     <link rel="preconnect" href="https://fonts.gstatic.com" />
@@ -72,7 +72,7 @@
             <form name="formjs" id="formjs">
               <fieldset class="campos">
                 <div class="inputBox">
-                  <label for="name"><strong>Nome completo: </strong></label>
+                  <label for="name"><strong>Nome do produto: </strong></label>
                   <input
                     class="inputUser"
                     type="text"
@@ -81,20 +81,9 @@
                     required
                   />
                 </div>
+                
                 <div class="inputBox">
-                  <label for="data"
-                    ><strong>Data de Nascimento: </strong></label
-                  >
-                  <input
-                    class="inputUser"
-                    type="date"
-                    name="data"
-                    id="data"
-                    required
-                  />
-                </div>
-                <div class="inputBox">
-                  <p><strong>Sexo:</strong></p>
+                  <p><strong>Gênero:</strong></p>
                   <input
                     type="radio"
                     name="genero"
@@ -111,78 +100,51 @@
                     required
                   />
                   <label for="masculino"><strong>Masculino </strong></label>
-                  <input
-                    type="radio"
-                    name="genero"
-                    id="outro"
-                    value="outro"
-                    required
-                  />
-                  <label for="outro"><strong>Outros </strong></label>
+                  
                 </div>
                 <div class="inputBox">
-                  <label for="telefone"><strong>Telefone: </strong></label>
-                  <input
-                    class="inputUser"
-                    type="tel"
-                    name="telefone"
-                    id="telefone"
-                    required
-                  />
-                </div>
-                <div class="inputBox">
-                  <label for="email"><strong>Email: </strong></label>
-                  <input
-                    class="inputUser"
-                    type="email"
-                    name="email"
-                    id="email"
-                    required
-                  />
-                </div>
-                <div class="inputBox">
-                  <label for="cidade"><strong>Cidade: </strong></label>
+                  <label for="telefone"><strong>Marca: </strong></label>
                   <input
                     class="inputUser"
                     type="text"
-                    name="cidade"
-                    id="cidade"
+                    name="marca"
+                    id="marca"
                     required
                   />
                 </div>
                 <div class="inputBox">
-                  <label for="estado"><strong>Estado: </strong></label>
+                  <label for="email"><strong>Modelo: </strong></label>
                   <input
                     class="inputUser"
                     type="text"
-                    name="estado"
-                    id="estado"
+                    name="modelo"
+                    id="modelo"
                     required
                   />
                 </div>
-
                 <div class="inputBox">
-                  <label for="endereco"><strong>Endereço: </strong></label>
+                  <label for="cidade"><strong>Descrição do produto: </strong></label>
                   <input
                     class="inputUser"
                     type="text"
-                    name="endereco"
-                    id="endereco"
+                    name="descricao"
+                    id="descricao"
                     required
                   />
                 </div>
                 <div class="inputBox">
-                  <label for="senha"><strong>Senha: </strong></label>
+                  <label for="cidade"><strong>URL da imagem: </strong></label>
                   <input
                     class="inputUser"
-                    type="password"
-                    name="senha"
-                    id="senha"
+                    type="text"
+                    name="imagem"
+                    id="imagem"
                     required
                   />
                 </div>
+                
                 <div class="botaoEnviar">
-                  <button type="submit"  id="submit" >Cadatrar</button>
+                  <input type="submit" name="submit" id="submit" />
                 </div>
               </fieldset>
             </form>
@@ -221,5 +183,5 @@
     </main>
   </body>
   <!-- Java Script-->
-  <script src="cadastro.js"></script>
+  <script src="produtos.js"></script>
 </html>

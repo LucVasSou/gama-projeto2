@@ -1,17 +1,5 @@
-/*document.formjs.onsubmit = e => {
-  e.preventDefault()
-  alert('Será que vai?')
-}*/
+let count = 0
 
-formjs.addEventListener('click', e => {
-  e.preventDefault()
-  console.log(e)
-  let email = document.getElementById('preencher').value
-  console.log(email)
-  let data = {
-    email
-  }
-  let convertData = JSON.stringify(data)
-
-  localStorage.setItem('lead', convertData)
+$('.button').on('click', function () {
+  let cart = $('cart-number')
 })

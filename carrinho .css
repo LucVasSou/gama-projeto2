@@ -44,8 +44,10 @@ html {
 .logo {
   font: 700 1.31rem 'Poppins', sans-serif;
   color: orangered;
-  margin-left: 2rem;
+  
   align-items: justify;
+  margin-right: 2rem;
+  
 }
 
 
@@ -55,7 +57,11 @@ html {
   font-size: larger;
 }
 
-
+.cart-icon {
+  color: white;
+  font-size: larger;
+  font: 700 1.31rem 'Poppins', sans-serif;
+}
 
 
 
@@ -71,12 +77,11 @@ nav {
   width: 100%;
   display: flex;
   align-items: center;
-  margin-right: 2rem;
+  
   
   height: 5rem;
   background-color: black;
   border-style: outset;
-  
 }
 
 ul{
